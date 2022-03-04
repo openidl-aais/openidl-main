@@ -47,7 +47,8 @@ global:
     image:
       repository: ghcr.io/openidl-org/openidl-insurance-data-manager
       pullPolicy: IfNotPresent
-      tag: 5-cognito-fabric-node14-helm-f84a367-093020211950
+      #tag: 5-cognito-fabric-node14-helm-f84a367-093020211950
+      tag: 7-develop-78d1f07-020820221509
   datacallprocessor:
     install: true
     port: 8080

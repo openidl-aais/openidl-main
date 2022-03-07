@@ -72,10 +72,11 @@ global:
         ingressenabled: false
         ingresshostname: insurance-data-manager-service.dev.analytics.openidl.aaisdirect.com
         image:
-            repository: ghcr.io/openidl-org/openidl-insurance-data-manager
+            repository: ghcr.io/openidl-org/openidl-main/openidl-insurance-data-manager
+            #repository: ghcr.io/openidl-org/openidl-insurance-data-manager
             pullPolicy: IfNotPresent
             #tag: 5-cognito-fabric-node14-helm-f84a367-093020211950
-            tag: 7-develop-78d1f07-020820221509
+            tag: 8-develop-c3598df-022820221600
     upload:
         install: false
         port: 80

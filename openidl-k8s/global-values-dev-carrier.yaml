@@ -50,8 +50,7 @@ global:
       pullPolicy: IfNotPresent
       #tag: 5-cognito-fabric-node14-helm-f84a367-093020211950
       tag: 8-develop-c3598df-022820221600
-
-datacallprocessor:
+  datacallprocessor:
     install: true
     port: 8080
     targetport: 8080
